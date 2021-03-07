@@ -1,0 +1,94 @@
+body
+{
+    background: #0f0c29;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+#calc{
+    box-shadow: 0px 0px 5px 5px cornsilk;
+    background-color: #ea0808;
+    height: 450px;
+    width: 350px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px solid cornsilk;
+    position: fixed;
+    text-align: center;
+    transform: translate(500px, -39px);
+    
+}
+
+
+.screen
+{
+    
+    text-align: end;
+    font-size: 46px;
+    color: brown;
+    height: 60px;
+    width: 350px;
+    border: 2px solid black;
+    background-color: cornsilk;
+    margin: 10px;
+    
+    
+}
+
+#cut{
+    margin: 10px;
+    height: 50px;
+    width: 136px;
+    font-size: 40px;
+    border: 1px solid white;
+}
+
+.samesize{
+    
+    margin: 10px;
+    height: 50px;
+    width: 50px;
+    border: 1px solid white;
+    font-size: 40px;
+
+    
+}
+
+#zero{
+   
+    margin: 10px;
+    height: 50px;
+    width: 219px;
+    font-size: 40px;
+    border: 1px solid white;
+    
+}
+
+.clrNum
+{
+    color: black;
+    background-color: cornsilk;
+}
+
+.clr
+{
+    color: brown;
+    background-color: cornsilk;
+    font-weight: bold; 
+}
+
+h1{
+    transform: translate(1px, -28px);
+    text-align: center;
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 70px;
+    color: cornsilk;
+    
+}
+
+.calc-buttons
+{
+    display: contents;
+}
